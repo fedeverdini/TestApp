@@ -1,3 +1,47 @@
 <resources>
-    <string name="app_name">presentation</string>
+    <string name="app_name">Match Simulator</string>
+
+    <string name="tool_bar_teams_title">Choose Teams</string>
+    <string name="tool_bar_group_title">Group Phase</string>
+
+    <string name="close_app_title">Close App?</string>
+    <string name="close_app_confirmation_message">Do you really want to close this amazing app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="close">Close</string>
+
+    <string name="group_name">Round %s</string>
+    <string name="team_strength">Strength: %d</string>
+    <string name="no_teams_error_message">There are no teams available</string>
+    <string name="see_result_table">See Results Table</string>
+    <string name="new_simulation">New Simulation</string>
+    <string name="result_table_group_title">Results Table Group</string>
+
+    <string name="get_teams">Get Teams</string>
+    <string name="create_group">Create Groups</string>
+
+    <string name="table_result_team_name" >Team</string>
+    <string name="table_result_position_help">(#) Position</string>
+    <string name="table_result_played_help">(P) Played</string>
+    <string name="table_result_win_help">(W) Win</string>
+    <string name="table_result_draw_help">(D) Draw</string>
+    <string name="table_result_loss_help">(L) Loss</string>
+    <string name="table_result_for_help">(F) Goals For</string>
+    <string name="table_result_against_help">(A) Goals Against</string>
+    <string name="table_result_diff_help">(GD) Goal Diff</string>
+    <string name="table_result_points_help">(Pts) Points</string>
+
+
+    <string name="match_score_result" translatable="false">%d - %d</string>
+    <string name="table_result_position" translatable="false">#</string>
+    <string name="table_result_played" translatable="false">P</string>
+    <string name="table_result_win" translatable="false">W</string>
+    <string name="table_result_draw" translatable="false">D</string>
+    <string name="table_result_loss" translatable="false">L</string>
+    <string name="table_result_for" translatable="false">F</string>
+    <string name="table_result_against" translatable="false">A</string>
+    <string name="table_result_diff" translatable="false">GD</string>
+    <string name="table_result_points" translatable="false">Pts</string>
+
 </resources>

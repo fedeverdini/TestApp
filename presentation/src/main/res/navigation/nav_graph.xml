@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/teamsFragment">
+
+    <fragment
+        android:id="@+id/teamsFragment"
+        android:name="com.example.presentation.team.TeamsFragment"
+        android:label="TeamsFragment" />
+
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="com.example.presentation.group.GroupsFragment"
+        android:label="GroupFragment">
+
+        <argument
+            android:name="teams"
+            app:argType="com.example.domain.model.Team[]"
+            app:nullable="false" />
+
+        <action
+            android:id="@+id/fromGroupFragmentToTeamsFragmentAction"
+            app:destination="@+id/teamsFragment"
+            app:enterAnim="@animator/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>
